@@ -1,0 +1,39 @@
+body {
+   background: linear-gradient(red,pink);
+    text-align: center;
+}
+.head {
+    font-size: 65px;
+    color: pink;
+        font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    
+    
+}
+p {
+    font-size: 40px;
+    color: blue;
+    font-family: fantasy;
+}
+.h2 {
+    font-size: 90px;
+    color: green;
+        font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    
+}
+img {
+    width: 430px;
+    height: 460px;
+}
+.row {
+    display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.row>div {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+}
